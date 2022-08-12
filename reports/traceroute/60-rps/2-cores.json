@@ -1,0 +1,76 @@
+{
+  "duration": 60,
+  "rps": 60,
+  "time": 58.73,
+  "numberOfRequests": 3600,
+  "successfullResponses": 1187,
+  "averageOneRequestTime": 8.78,
+  "longestOneRequestTime": 12.75,
+  "disconnects": [
+    "transport error"
+  ],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 2353,
+    "1": 78,
+    "2": 604,
+    "3": 439,
+    "4": 39,
+    "5": 20,
+    "6": 6,
+    "7": 1,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "rawOutput": "traceroute to google.com (172.217.23.110), 20 hops max, 60 byte packets\n"
+      },
+      {
+        "rawOutput": " 1  172.17.0.1 (172.17.0.1)  0.054 ms  0.010 ms"
+      },
+      {
+        "rawOutput": "\n 2  * *\n 3  * mil04s23-in-f110.1e100.net (172.217.23.110)  53.155 ms\n"
+      }
+    ],
+    "startTime": 1755.1549979448318,
+    "time": 2.13,
+    "result": {
+      "resolvedAddress": "172.217.23.110",
+      "resolvedHostname": "mil04s23-in-f110.1e100.net",
+      "hops": [
+        {
+          "resolvedHostname": "172.17.0.1",
+          "resolvedAddress": "172.17.0.1",
+          "timings": [
+            {
+              "rtt": 0.054
+            },
+            {
+              "rtt": 0.01
+            }
+          ]
+        },
+        {
+          "resolvedHostname": "*",
+          "resolvedAddress": "*",
+          "timings": []
+        },
+        {
+          "resolvedHostname": "mil04s23-in-f110.1e100.net",
+          "resolvedAddress": "172.217.23.110",
+          "timings": [
+            {
+              "rtt": 53.155
+            }
+          ]
+        }
+      ],
+      "rawOutput": "traceroute to google.com (172.217.23.110), 20 hops max, 60 byte packets\n 1  172.17.0.1 (172.17.0.1)  0.054 ms  0.010 ms\n 2  * *\n 3  * mil04s23-in-f110.1e100.net (172.217.23.110)  53.155 ms"
+    }
+  },
+  "problemsRaw": {}
+}

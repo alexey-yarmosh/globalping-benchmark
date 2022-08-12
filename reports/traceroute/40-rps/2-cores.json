@@ -1,0 +1,74 @@
+{
+  "duration": 60,
+  "rps": 40,
+  "time": 64.07,
+  "numberOfRequests": 2400,
+  "successfullResponses": 2400,
+  "averageOneRequestTime": 4.57,
+  "longestOneRequestTime": 14.54,
+  "disconnects": [],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 0,
+    "1": 0,
+    "2": 5,
+    "3": 1364,
+    "4": 477,
+    "5": 278,
+    "6": 141,
+    "7": 74,
+    "8": 33,
+    "9": 12,
+    "10": 8,
+    "11": 6,
+    "12": 2
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "rawOutput": "traceroute to google.com (142.250.74.206), 20 hops max, 60 byte packets\n 1  172.17.0.1 (172.17.0.1)  0.027 ms  0.008 ms"
+      },
+      {
+        "rawOutput": "\n"
+      },
+      {
+        "rawOutput": " 2  142.250.74.206 (142.250.74.206)  89.261 ms  59.373 ms\n"
+      }
+    ],
+    "startTime": 8068.864775061607,
+    "time": 10.21,
+    "result": {
+      "resolvedAddress": "142.250.74.206",
+      "resolvedHostname": "142.250.74.206",
+      "hops": [
+        {
+          "resolvedHostname": "172.17.0.1",
+          "resolvedAddress": "172.17.0.1",
+          "timings": [
+            {
+              "rtt": 0.027
+            },
+            {
+              "rtt": 0.008
+            }
+          ]
+        },
+        {
+          "resolvedHostname": "142.250.74.206",
+          "resolvedAddress": "142.250.74.206",
+          "timings": [
+            {
+              "rtt": 89.261
+            },
+            {
+              "rtt": 59.373
+            }
+          ]
+        }
+      ],
+      "rawOutput": "traceroute to google.com (142.250.74.206), 20 hops max, 60 byte packets\n 1  172.17.0.1 (172.17.0.1)  0.027 ms  0.008 ms\n 2  142.250.74.206 (142.250.74.206)  89.261 ms  59.373 ms"
+    }
+  },
+  "problemsRaw": {}
+}

@@ -1,0 +1,54 @@
+{
+  "duration": 60,
+  "rps": 70,
+  "time": 60.88,
+  "numberOfRequests": 4200,
+  "successfullResponses": 4200,
+  "averageOneRequestTime": 1.55,
+  "longestOneRequestTime": 2.75,
+  "disconnects": [],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 0,
+    "1": 4199,
+    "2": 1,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "rawOutput": "\n; <<>> DiG 9.16.27-Debian <<>> google.com -t A -p 53 -4 +timeout=3 +tries=2 +nocookie\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39597\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n"
+      },
+      {
+        "rawOutput": "\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 4096\n;; QUESTION SECTION:\n;google.com.\t\t\tIN\tA\n\n;; ANSWER SECTION:\ngoogle.com.\t\t283\tIN\tA\t216.58.215.78\n\n;; Query time: 3 msec\n;; SERVER: x.x.x.x#53(x.x.x.x)\n"
+      }
+    ],
+    "startTime": 1597.4343919754028,
+    "time": 0.1,
+    "result": {
+      "answers": [
+        {
+          "name": "google.com.",
+          "type": "A",
+          "ttl": 283,
+          "class": "IN",
+          "value": "216.58.215.78"
+        }
+      ],
+      "resolver": "private",
+      "timings": {
+        "total": 3
+      },
+      "rawOutput": "\n; <<>> DiG 9.16.27-Debian <<>> google.com -t A -p 53 -4 +timeout=3 +tries=2 +nocookie\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39597\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 4096\n;; QUESTION SECTION:\n;google.com.\t\t\tIN\tA\n\n;; ANSWER SECTION:\ngoogle.com.\t\t283\tIN\tA\t216.58.215.78\n\n;; Query time: 3 msec\n;; SERVER: x.x.x.x#53(x.x.x.x)\n;; WHEN: Fri Aug 12 08:59:36 UTC 2022\n;; MSG SIZE  rcvd: 65\n"
+    }
+  },
+  "problemsRaw": {}
+}

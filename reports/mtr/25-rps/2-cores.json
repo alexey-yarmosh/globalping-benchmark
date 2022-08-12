@@ -1,0 +1,932 @@
+{
+  "duration": 60,
+  "rps": 25,
+  "time": 98.92,
+  "numberOfRequests": 1500,
+  "successfullResponses": 1071,
+  "averageOneRequestTime": 12.47,
+  "longestOneRequestTime": 33.71,
+  "disconnects": [
+    "transport error"
+  ],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 429,
+    "1": 520,
+    "2": 152,
+    "3": 71,
+    "4": 62,
+    "5": 56,
+    "6": 15,
+    "7": 22,
+    "8": 26,
+    "9": 22,
+    "10": 14,
+    "11": 6,
+    "12": 4,
+    "13": 7,
+    "14": 3,
+    "15": 3,
+    "16": 1,
+    "17": 7,
+    "18": 5,
+    "19": 7,
+    "20": 5,
+    "21": 2,
+    "22": 5,
+    "23": 2,
+    "24": 3,
+    "25": 4,
+    "26": 4,
+    "27": 2,
+    "28": 2,
+    "29": 6,
+    "30": 4,
+    "31": 2,
+    "32": 5,
+    "33": 4,
+    "34": 1,
+    "35": 3,
+    "37": 2,
+    "38": 2,
+    "39": 3,
+    "40": 2,
+    "41": 2,
+    "42": 3
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host          Loss% Drop Rcv Avg  StDev  Javg \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.309,
+              "max": 0.309,
+              "avg": 0.3,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.3,
+              "jMax": 0.3,
+              "jAvg": 0.3
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.309
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          }
+        ],
+        "rawOutput": "Host                   Loss% Drop Rcv Avg  StDev  Javg \n1. AS??? _gateway (172.17.0.1)    0.0%    0   0 0.3    0.0   0.3\n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.309,
+              "max": 0.309,
+              "avg": 0.3,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.3,
+              "jMax": 0.3,
+              "jAvg": 0.3
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.309
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                   Loss% Drop Rcv Avg  StDev  Javg \n1. AS??? _gateway (172.17.0.1)    0.0%    0   0 0.3    0.0   0.3\n2. AS??? (waiting for reply) \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.309,
+              "max": 0.309,
+              "avg": 0.3,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.3,
+              "jMax": 0.3,
+              "jAvg": 0.3
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.309
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                   Loss% Drop Rcv Avg  StDev  Javg \n1. AS??? _gateway (172.17.0.1)    0.0%    0   0 0.3    0.0   0.3\n2. AS??? (waiting for reply) \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.309,
+              "max": 0.309,
+              "avg": 0.3,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.3,
+              "jMax": 0.3,
+              "jAvg": 0.3
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.309
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 72.756,
+              "max": 72.756,
+              "avg": 72.8,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 72.8,
+              "jMax": 72.8,
+              "jAvg": 72.8
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 72.756
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                            Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)    0.0%    0   0  0.3    0.0   0.3\n2. AS15169 172.217.23.110 (172.217.23.110)    0.0%    0   0 72.8    0.0  72.8\n3. AS???   (waiting for reply) \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.309,
+              "max": 0.309,
+              "avg": 0.3,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.3,
+              "jMax": 0.3,
+              "jAvg": 0.3
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.309
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 72.756,
+              "max": 72.756,
+              "avg": 72.8,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 72.8,
+              "jMax": 72.8,
+              "jAvg": 72.8
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 72.756
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                            Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)    0.0%    0   0  0.3    0.0   0.3\n2. AS15169 172.217.23.110 (172.217.23.110)    0.0%    0   0 72.8    0.0  72.8\n3. AS???   (waiting for reply) \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.309,
+              "max": 0.309,
+              "avg": 0.3,
+              "total": 2,
+              "rcv": 1,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.3,
+              "jMax": 0.3,
+              "jAvg": 0.3
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.309
+              },
+              {
+                "seq": "33004",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 72.756,
+              "max": 72.756,
+              "avg": 72.8,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 72.8,
+              "jMax": 72.8,
+              "jAvg": 72.8
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 72.756
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                            Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)    0.0%    0   1  0.3    0.0   0.3\n2. AS15169 172.217.23.110 (172.217.23.110)    0.0%    0   0 72.8    0.0  72.8\n3. AS???   (waiting for reply) \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.309,
+              "max": 0.309,
+              "avg": 0.3,
+              "total": 2,
+              "rcv": 1,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.3,
+              "jMax": 0.3,
+              "jAvg": 0.3
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.309
+              },
+              {
+                "seq": "33004",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 72.756,
+              "max": 72.756,
+              "avg": 72.8,
+              "total": 2,
+              "rcv": 1,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 72.8,
+              "jMax": 72.8,
+              "jAvg": 72.8
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 72.756
+              },
+              {
+                "seq": "33005",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                            Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)    0.0%    0   1  0.3    0.0   0.3\n2. AS15169 172.217.23.110 (172.217.23.110)    0.0%    0   1 72.8    0.0  72.8\n3. AS???   (waiting for reply) \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.309,
+              "max": 0.309,
+              "avg": 0.3,
+              "total": 3,
+              "rcv": 1,
+              "drop": 1,
+              "stDev": 0,
+              "jMin": 0.3,
+              "jMax": 0.3,
+              "jAvg": 0.3
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.309
+              },
+              {
+                "seq": "33004",
+                "rtt": null
+              },
+              {
+                "seq": "33006",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 72.756,
+              "max": 72.756,
+              "avg": 72.8,
+              "total": 2,
+              "rcv": 1,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 72.8,
+              "jMax": 72.8,
+              "jAvg": 72.8
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 72.756
+              },
+              {
+                "seq": "33005",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                            Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)   33.3%    1   1  0.3    0.0   0.3\n2. AS15169 172.217.23.110 (172.217.23.110)    0.0%    0   1 72.8    0.0  72.8\n3. AS???   (waiting for reply) \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.309,
+              "max": 0.309,
+              "avg": 0.3,
+              "total": 3,
+              "rcv": 1,
+              "drop": 1,
+              "stDev": 0,
+              "jMin": 0.3,
+              "jMax": 0.3,
+              "jAvg": 0.3
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.309
+              },
+              {
+                "seq": "33004",
+                "rtt": null
+              },
+              {
+                "seq": "33006",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 72.756,
+              "max": 72.756,
+              "avg": 72.8,
+              "total": 3,
+              "rcv": 1,
+              "drop": 1,
+              "stDev": 0,
+              "jMin": 72.8,
+              "jMax": 72.8,
+              "jAvg": 72.8
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 72.756
+              },
+              {
+                "seq": "33005",
+                "rtt": null
+              },
+              {
+                "seq": "33007",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                            Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)   33.3%    1   1  0.3    0.0   0.3\n2. AS15169 172.217.23.110 (172.217.23.110)   33.3%    1   1 72.8    0.0  72.8\n3. AS???   (waiting for reply) \n"
+      }
+    ],
+    "startTime": 4787.72102689743,
+    "time": 4.7,
+    "result": {
+      "resolvedAddress": "172.217.23.110",
+      "resolvedHostname": "undefined",
+      "hops": [
+        {
+          "stats": {
+            "min": 0.309,
+            "max": 0.309,
+            "avg": 0.3,
+            "total": 3,
+            "rcv": 1,
+            "drop": 2,
+            "stDev": 0,
+            "jMin": 0.3,
+            "jMax": 0.3,
+            "jAvg": 0.3
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": 0.309
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ],
+          "resolvedAddress": "172.17.0.1",
+          "duplicate": false
+        },
+        {
+          "stats": {
+            "min": 72.756,
+            "max": 72.756,
+            "avg": 72.8,
+            "total": 3,
+            "rcv": 1,
+            "drop": 2,
+            "stDev": 0,
+            "jMin": 72.8,
+            "jMax": 72.8,
+            "jAvg": 72.8
+          },
+          "asn": [
+            15169
+          ],
+          "timings": [
+            {
+              "rtt": 72.756
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ],
+          "resolvedAddress": "172.217.23.110",
+          "duplicate": false
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 1,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 1,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            }
+          ]
+        }
+      ],
+      "rawOutput": "Host                            Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)   66.7%    2   1  0.3    0.0   0.3\n2. AS15169 172.217.23.110 (172.217.23.110)   66.7%    2   1 72.8    0.0  72.8\n3. AS???   (waiting for reply) \n"
+    }
+  },
+  "problemsRaw": {}
+}

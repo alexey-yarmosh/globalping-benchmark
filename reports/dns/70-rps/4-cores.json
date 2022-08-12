@@ -1,0 +1,54 @@
+{
+  "duration": 60,
+  "rps": 70,
+  "time": 60.63,
+  "numberOfRequests": 4200,
+  "successfullResponses": 4200,
+  "averageOneRequestTime": 1.54,
+  "longestOneRequestTime": 3.33,
+  "disconnects": [],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 0,
+    "1": 4198,
+    "2": 2,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "rawOutput": "\n; <<>> DiG 9.16.27-Debian <<>> google.com -t A -p 53 -4 +timeout=3 +tries=2 +nocookie\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40187\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n"
+      },
+      {
+        "rawOutput": "\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 4096\n;; QUESTION SECTION:\n;google.com.\t\t\tIN\tA\n\n;; ANSWER SECTION:\ngoogle.com.\t\t304\tIN\tA\t172.217.16.46\n\n;; Query time: 2 msec\n;; SERVER: x.x.x.x#53(x.x.x.x)\n;; WHEN: Fri Aug 12 09:00:40 UTC 2022\n;; MSG SIZE  rcvd: 65\n\n"
+      }
+    ],
+    "startTime": 1595.3257150650024,
+    "time": 0.07,
+    "result": {
+      "answers": [
+        {
+          "name": "google.com.",
+          "type": "A",
+          "ttl": 304,
+          "class": "IN",
+          "value": "172.217.16.46"
+        }
+      ],
+      "resolver": "private",
+      "timings": {
+        "total": 2
+      },
+      "rawOutput": "\n; <<>> DiG 9.16.27-Debian <<>> google.com -t A -p 53 -4 +timeout=3 +tries=2 +nocookie\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40187\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 4096\n;; QUESTION SECTION:\n;google.com.\t\t\tIN\tA\n\n;; ANSWER SECTION:\ngoogle.com.\t\t304\tIN\tA\t172.217.16.46\n\n;; Query time: 2 msec\n;; SERVER: x.x.x.x#53(x.x.x.x)\n;; WHEN: Fri Aug 12 09:00:40 UTC 2022\n;; MSG SIZE  rcvd: 65\n"
+    }
+  },
+  "problemsRaw": {}
+}

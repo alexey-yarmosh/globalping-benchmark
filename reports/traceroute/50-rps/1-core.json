@@ -1,0 +1,73 @@
+{
+  "duration": 60,
+  "rps": 50,
+  "time": 65.01,
+  "numberOfRequests": 3000,
+  "successfullResponses": 873,
+  "averageOneRequestTime": 10.97,
+  "longestOneRequestTime": 18.21,
+  "disconnects": [
+    "transport error"
+  ],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 2127,
+    "1": 317,
+    "2": 310,
+    "3": 246,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "rawOutput": "traceroute to google.com (142.250.74.206), 20 hops max, 60 byte packets\n 1  172.17.0.1 (172.17.0.1)  0.063 ms  0.022 ms"
+      },
+      {
+        "rawOutput": "\n 2  * *\n 3  * fra24s02-in-f14.1e100.net (142.250.74.206)  252.374 ms\n"
+      }
+    ],
+    "startTime": 21766.703040003777,
+    "time": 2.33,
+    "result": {
+      "resolvedAddress": "142.250.74.206",
+      "resolvedHostname": "fra24s02-in-f14.1e100.net",
+      "hops": [
+        {
+          "resolvedHostname": "172.17.0.1",
+          "resolvedAddress": "172.17.0.1",
+          "timings": [
+            {
+              "rtt": 0.063
+            },
+            {
+              "rtt": 0.022
+            }
+          ]
+        },
+        {
+          "resolvedHostname": "*",
+          "resolvedAddress": "*",
+          "timings": []
+        },
+        {
+          "resolvedHostname": "fra24s02-in-f14.1e100.net",
+          "resolvedAddress": "142.250.74.206",
+          "timings": [
+            {
+              "rtt": 252.374
+            }
+          ]
+        }
+      ],
+      "rawOutput": "traceroute to google.com (142.250.74.206), 20 hops max, 60 byte packets\n 1  172.17.0.1 (172.17.0.1)  0.063 ms  0.022 ms\n 2  * *\n 3  * fra24s02-in-f14.1e100.net (142.250.74.206)  252.374 ms"
+    }
+  },
+  "problemsRaw": {}
+}

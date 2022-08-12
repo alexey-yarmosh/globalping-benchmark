@@ -1,0 +1,1101 @@
+{
+  "duration": 60,
+  "rps": 15,
+  "time": 64.93,
+  "numberOfRequests": 900,
+  "successfullResponses": 900,
+  "averageOneRequestTime": 5.4,
+  "longestOneRequestTime": 5.98,
+  "disconnects": [],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 2,
+    "35": 3,
+    "36": 5,
+    "37": 5,
+    "38": 2,
+    "39": 10,
+    "40": 8,
+    "41": 68,
+    "42": 731,
+    "43": 16,
+    "44": 21,
+    "45": 13,
+    "46": 14,
+    "47": 2
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host          Loss% Drop Rcv Avg  StDev  Javg \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.106,
+              "max": 0.106,
+              "avg": 0.1,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.1,
+              "jMax": 0.1,
+              "jAvg": 0.1
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.106
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          }
+        ],
+        "rawOutput": "Host                   Loss% Drop Rcv Avg  StDev  Javg \n1. AS??? _gateway (172.17.0.1)    0.0%    0   0 0.1    0.0   0.1\n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.106,
+              "max": 0.106,
+              "avg": 0.1,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.1,
+              "jMax": 0.1,
+              "jAvg": 0.1
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.106
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                   Loss% Drop Rcv Avg  StDev  Javg \n1. AS??? _gateway (172.17.0.1)    0.0%    0   0 0.1    0.0   0.1\n2. AS??? (waiting for reply) \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.106,
+              "max": 0.106,
+              "avg": 0.1,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.1,
+              "jMax": 0.1,
+              "jAvg": 0.1
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.106
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 50.08,
+              "max": 50.08,
+              "avg": 50.1,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 50.1,
+              "jMax": 50.1,
+              "jAvg": 50.1
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 50.08
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                            Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)    0.0%    0   0  0.1    0.0   0.1\n2. AS15169 172.217.23.110 (172.217.23.110)    0.0%    0   0 50.1    0.0  50.1\n3. AS???   (waiting for reply) \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.106,
+              "max": 0.106,
+              "avg": 0.1,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.1,
+              "jMax": 0.1,
+              "jAvg": 0.1
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.106
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 50.08,
+              "max": 50.08,
+              "avg": 50.1,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 50.1,
+              "jMax": 50.1,
+              "jAvg": 50.1
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 50.08
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                            Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)    0.0%    0   0  0.1    0.0   0.1\n2. AS15169 172.217.23.110 (172.217.23.110)    0.0%    0   0 50.1    0.0  50.1\n3. AS???   (waiting for reply) \n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.106,
+              "max": 0.106,
+              "avg": 0.1,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.1,
+              "jMax": 0.1,
+              "jAvg": 0.1
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.106
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 50.08,
+              "max": 50.08,
+              "avg": 50.1,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 50.1,
+              "jMax": 50.1,
+              "jAvg": 50.1
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 50.08
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 51.647,
+              "max": 51.647,
+              "avg": 51.6,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 51.6,
+              "jMax": 51.6,
+              "jAvg": 51.6
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": 51.647
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": true,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                                                     Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)                          0.0%    0   0  0.1    0.0   0.1\n2. AS15169 mil04s23-in-f110.1e100.net (172.217.23.110)    0.0%    0   0 50.1    0.0  50.1\n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.106,
+              "max": 0.106,
+              "avg": 0.1,
+              "total": 2,
+              "rcv": 1,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.1,
+              "jMax": 0.1,
+              "jAvg": 0.1
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.106
+              },
+              {
+                "seq": "33004",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 50.08,
+              "max": 50.08,
+              "avg": 50.1,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 50.1,
+              "jMax": 50.1,
+              "jAvg": 50.1
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 50.08
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 51.647,
+              "max": 51.647,
+              "avg": 51.6,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 51.6,
+              "jMax": 51.6,
+              "jAvg": 51.6
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": 51.647
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": true,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                                                     Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)                          0.0%    0   1  0.1    0.0   0.1\n2. AS15169 mil04s23-in-f110.1e100.net (172.217.23.110)    0.0%    0   0 50.1    0.0  50.1\n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.106,
+              "max": 0.106,
+              "avg": 0.1,
+              "total": 2,
+              "rcv": 1,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0.1,
+              "jMax": 0.1,
+              "jAvg": 0.1
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.106
+              },
+              {
+                "seq": "33004",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 50.08,
+              "max": 50.08,
+              "avg": 50.1,
+              "total": 2,
+              "rcv": 1,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 50.1,
+              "jMax": 50.1,
+              "jAvg": 50.1
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 50.08
+              },
+              {
+                "seq": "33005",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 51.647,
+              "max": 51.647,
+              "avg": 51.6,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 51.6,
+              "jMax": 51.6,
+              "jAvg": 51.6
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": 51.647
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": true,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                                                     Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)                          0.0%    0   1  0.1    0.0   0.1\n2. AS15169 mil04s23-in-f110.1e100.net (172.217.23.110)    0.0%    0   1 50.1    0.0  50.1\n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.106,
+              "max": 0.106,
+              "avg": 0.1,
+              "total": 3,
+              "rcv": 1,
+              "drop": 1,
+              "stDev": 0,
+              "jMin": 0.1,
+              "jMax": 0.1,
+              "jAvg": 0.1
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.106
+              },
+              {
+                "seq": "33004",
+                "rtt": null
+              },
+              {
+                "seq": "33006",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 50.08,
+              "max": 50.08,
+              "avg": 50.1,
+              "total": 2,
+              "rcv": 1,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 50.1,
+              "jMax": 50.1,
+              "jAvg": 50.1
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 50.08
+              },
+              {
+                "seq": "33005",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 51.647,
+              "max": 51.647,
+              "avg": 51.6,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 51.6,
+              "jMax": 51.6,
+              "jAvg": 51.6
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": 51.647
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": true,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                                                     Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)                         33.3%    1   1  0.1    0.0   0.1\n2. AS15169 mil04s23-in-f110.1e100.net (172.217.23.110)    0.0%    0   1 50.1    0.0  50.1\n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.106,
+              "max": 0.106,
+              "avg": 0.1,
+              "total": 3,
+              "rcv": 1,
+              "drop": 1,
+              "stDev": 0,
+              "jMin": 0.1,
+              "jMax": 0.1,
+              "jAvg": 0.1
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.106
+              },
+              {
+                "seq": "33004",
+                "rtt": null
+              },
+              {
+                "seq": "33006",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 50.08,
+              "max": 50.08,
+              "avg": 50.1,
+              "total": 3,
+              "rcv": 1,
+              "drop": 1,
+              "stDev": 0,
+              "jMin": 50.1,
+              "jMax": 50.1,
+              "jAvg": 50.1
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 50.08
+              },
+              {
+                "seq": "33005",
+                "rtt": null
+              },
+              {
+                "seq": "33007",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 51.647,
+              "max": 51.647,
+              "avg": 51.6,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 51.6,
+              "jMax": 51.6,
+              "jAvg": 51.6
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": 51.647
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": true,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host                                                     Loss% Drop Rcv  Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)                         33.3%    1   1  0.1    0.0   0.1\n2. AS15169 mil04s23-in-f110.1e100.net (172.217.23.110)   33.3%    1   1 50.1    0.0  50.1\n"
+      },
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0.106,
+              "max": 0.106,
+              "avg": 0.1,
+              "total": 3,
+              "rcv": 1,
+              "drop": 1,
+              "stDev": 0,
+              "jMin": 0.1,
+              "jMax": 0.1,
+              "jAvg": 0.1
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": 0.106
+              },
+              {
+                "seq": "33004",
+                "rtt": null
+              },
+              {
+                "seq": "33006",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.17.0.1",
+            "duplicate": false
+          },
+          {
+            "stats": {
+              "min": 50.08,
+              "max": 50.08,
+              "avg": 50.1,
+              "total": 3,
+              "rcv": 1,
+              "drop": 1,
+              "stDev": 0,
+              "jMin": 50.1,
+              "jMax": 50.1,
+              "jAvg": 50.1
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": 50.08
+              },
+              {
+                "seq": "33005",
+                "rtt": null
+              },
+              {
+                "seq": "33007",
+                "rtt": null
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": false,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 51.647,
+              "max": 51.647,
+              "avg": 51.6,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 51.6,
+              "jMax": 51.6,
+              "jAvg": 51.6
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": 51.647
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": true,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          },
+          {
+            "stats": {
+              "min": 2413.379,
+              "max": 2413.379,
+              "avg": 2413.4,
+              "total": 1,
+              "rcv": 0,
+              "drop": 0,
+              "stDev": 0,
+              "jMin": 2413.4,
+              "jMax": 2413.4,
+              "jAvg": 2413.4
+            },
+            "asn": [
+              15169
+            ],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": 2413.379
+              }
+            ],
+            "resolvedAddress": "172.217.23.110",
+            "duplicate": true,
+            "resolvedHostname": "mil04s23-in-f110.1e100.net"
+          }
+        ],
+        "rawOutput": "Host                                                     Loss% Drop Rcv    Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)                         33.3%    1   1    0.1    0.0   0.1\n2. AS15169 mil04s23-in-f110.1e100.net (172.217.23.110)   33.3%    1   1   50.1    0.0  50.1\n"
+      }
+    ],
+    "startTime": 11247.99231004715,
+    "time": 4.61,
+    "result": {
+      "resolvedAddress": "172.217.23.110",
+      "resolvedHostname": "mil04s23-in-f110.1e100.net",
+      "hops": [
+        {
+          "stats": {
+            "min": 0.106,
+            "max": 0.106,
+            "avg": 0.1,
+            "total": 3,
+            "rcv": 1,
+            "drop": 2,
+            "stDev": 0,
+            "jMin": 0.1,
+            "jMax": 0.1,
+            "jAvg": 0.1
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": 0.106
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ],
+          "resolvedAddress": "172.17.0.1",
+          "duplicate": false
+        },
+        {
+          "stats": {
+            "min": 50.08,
+            "max": 50.08,
+            "avg": 50.1,
+            "total": 3,
+            "rcv": 1,
+            "drop": 2,
+            "stDev": 0,
+            "jMin": 50.1,
+            "jMax": 50.1,
+            "jAvg": 50.1
+          },
+          "asn": [
+            15169
+          ],
+          "timings": [
+            {
+              "rtt": 50.08
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ],
+          "resolvedAddress": "172.217.23.110",
+          "duplicate": false,
+          "resolvedHostname": "mil04s23-in-f110.1e100.net"
+        },
+        {
+          "stats": {
+            "min": 51.647,
+            "max": 51.647,
+            "avg": 51.6,
+            "total": 1,
+            "rcv": 1,
+            "drop": 0,
+            "stDev": 0,
+            "jMin": 51.6,
+            "jMax": 51.6,
+            "jAvg": 51.6
+          },
+          "asn": [
+            15169
+          ],
+          "timings": [
+            {
+              "rtt": 51.647
+            }
+          ],
+          "resolvedAddress": "172.217.23.110",
+          "duplicate": true,
+          "resolvedHostname": "mil04s23-in-f110.1e100.net"
+        },
+        {
+          "stats": {
+            "min": 2413.379,
+            "max": 2413.379,
+            "avg": 2413.4,
+            "total": 1,
+            "rcv": 1,
+            "drop": 0,
+            "stDev": 0,
+            "jMin": 2413.4,
+            "jMax": 2413.4,
+            "jAvg": 2413.4
+          },
+          "asn": [
+            15169
+          ],
+          "timings": [
+            {
+              "rtt": 2413.379
+            }
+          ],
+          "resolvedAddress": "172.217.23.110",
+          "duplicate": true,
+          "resolvedHostname": "mil04s23-in-f110.1e100.net"
+        }
+      ],
+      "rawOutput": "Host                                                     Loss% Drop Rcv    Avg  StDev  Javg \n1. AS???   _gateway (172.17.0.1)                         66.7%    2   1    0.1    0.0   0.1\n2. AS15169 mil04s23-in-f110.1e100.net (172.217.23.110)   66.7%    2   1   50.1    0.0  50.1\n"
+    }
+  },
+  "problemsRaw": {}
+}

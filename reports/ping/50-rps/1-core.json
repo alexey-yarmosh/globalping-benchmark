@@ -1,0 +1,71 @@
+{
+  "duration": 60,
+  "rps": 50,
+  "time": 83.26,
+  "numberOfRequests": 3000,
+  "successfullResponses": 1350,
+  "averageOneRequestTime": 21.04,
+  "longestOneRequestTime": 30.11,
+  "disconnects": [
+    "transport error"
+  ],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 1650,
+    "1": 124,
+    "2": 1066,
+    "3": 15,
+    "4": 145,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "rawOutput": "PING google.com (142.250.186.78) 56(84) bytes of data.\n"
+      },
+      {
+        "rawOutput": "64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=1 ttl=37 time=87.9 ms\n"
+      },
+      {
+        "rawOutput": "64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=2 ttl=37 time=65.5 ms\n"
+      },
+      {
+        "rawOutput": "64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=3 ttl=37 time=65.2 ms\n\n--- google.com ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 401ms\nrtt min/avg/max/mdev = 65.165/72.858/87.889/10.629 ms\n"
+      }
+    ],
+    "startTime": 1901.1336549520493,
+    "time": 0.65,
+    "result": {
+      "resolvedAddress": "142.250.186.78",
+      "resolvedHostname": "fra24s05-in-f14.1e100.net",
+      "timings": [
+        {
+          "ttl": 37,
+          "rtt": 87.9
+        },
+        {
+          "ttl": 37,
+          "rtt": 65.5
+        },
+        {
+          "ttl": 37,
+          "rtt": 65.2
+        }
+      ],
+      "stats": {
+        "min": 65.165,
+        "avg": 72.858,
+        "max": 87.889,
+        "loss": 0
+      },
+      "rawOutput": "PING google.com (142.250.186.78) 56(84) bytes of data.\n64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=1 ttl=37 time=87.9 ms\n64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=2 ttl=37 time=65.5 ms\n64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=3 ttl=37 time=65.2 ms\n\n--- google.com ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 401ms\nrtt min/avg/max/mdev = 65.165/72.858/87.889/10.629 ms"
+    }
+  },
+  "problemsRaw": {}
+}

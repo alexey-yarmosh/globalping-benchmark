@@ -1,0 +1,53 @@
+{
+  "duration": 60,
+  "rps": 90,
+  "time": 54.62,
+  "numberOfRequests": 5400,
+  "successfullResponses": 1419,
+  "averageOneRequestTime": 8.16,
+  "longestOneRequestTime": 14.36,
+  "disconnects": [
+    "transport error"
+  ],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 3531,
+    "1": 1419,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "rawOutput": "\n; <<>> DiG 9.16.27-Debian <<>> google.com -t A -p 53 -4 +timeout=3 +tries=2 +nocookie\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5271\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 4096\n;; QUESTION SECTION:\n;google.com.\t\t\tIN\tA\n\n;; ANSWER SECTION:\ngoogle.com.\t\t304\tIN\tA\t172.217.16.46\n\n;; Query time: 3 msec\n;; SERVER: x.x.x.x#53(x.x.x.x)\n;; WHEN: Fri Aug 12 09:02:33 UTC 2022\n;; MSG SIZE  rcvd: 65\n\n"
+      }
+    ],
+    "startTime": 1564.9821599721909,
+    "time": 0.07,
+    "result": {
+      "answers": [
+        {
+          "name": "google.com.",
+          "type": "A",
+          "ttl": 304,
+          "class": "IN",
+          "value": "172.217.16.46"
+        }
+      ],
+      "resolver": "private",
+      "timings": {
+        "total": 3
+      },
+      "rawOutput": "\n; <<>> DiG 9.16.27-Debian <<>> google.com -t A -p 53 -4 +timeout=3 +tries=2 +nocookie\n;; global options: +cmd\n;; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5271\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 4096\n;; QUESTION SECTION:\n;google.com.\t\t\tIN\tA\n\n;; ANSWER SECTION:\ngoogle.com.\t\t304\tIN\tA\t172.217.16.46\n\n;; Query time: 3 msec\n;; SERVER: x.x.x.x#53(x.x.x.x)\n;; WHEN: Fri Aug 12 09:02:33 UTC 2022\n;; MSG SIZE  rcvd: 65\n"
+    }
+  },
+  "problemsRaw": {}
+}

@@ -1,0 +1,849 @@
+{
+  "duration": 60,
+  "rps": 20,
+  "time": 65.02,
+  "numberOfRequests": 1200,
+  "successfullResponses": 1200,
+  "averageOneRequestTime": 6.81,
+  "longestOneRequestTime": 25.19,
+  "disconnects": [],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 0,
+    "1": 189,
+    "2": 96,
+    "3": 54,
+    "4": 45,
+    "5": 19,
+    "6": 5,
+    "7": 7,
+    "8": 6,
+    "9": 3,
+    "10": 7,
+    "11": 16,
+    "12": 16,
+    "13": 19,
+    "14": 6,
+    "15": 6,
+    "16": 5,
+    "17": 3,
+    "18": 13,
+    "19": 16,
+    "20": 17,
+    "21": 20,
+    "22": 21,
+    "23": 27,
+    "24": 32,
+    "25": 37,
+    "26": 37,
+    "27": 36,
+    "28": 55,
+    "29": 56,
+    "30": 39,
+    "31": 45,
+    "32": 40,
+    "33": 40,
+    "34": 32,
+    "35": 23,
+    "36": 35,
+    "37": 25,
+    "38": 13,
+    "39": 16,
+    "40": 9,
+    "41": 2,
+    "42": 6,
+    "43": 4,
+    "44": 1,
+    "46": 1
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "hops": [
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33000",
+                "rtt": null
+              },
+              {
+                "seq": "33014",
+                "rtt": null
+              },
+              {
+                "seq": "33028",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33001",
+                "rtt": null
+              },
+              {
+                "seq": "33015",
+                "rtt": null
+              },
+              {
+                "seq": "33029",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33002",
+                "rtt": null
+              },
+              {
+                "seq": "33016",
+                "rtt": null
+              },
+              {
+                "seq": "33030",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33003",
+                "rtt": null
+              },
+              {
+                "seq": "33017",
+                "rtt": null
+              },
+              {
+                "seq": "33031",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33004",
+                "rtt": null
+              },
+              {
+                "seq": "33018",
+                "rtt": null
+              },
+              {
+                "seq": "33032",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33005",
+                "rtt": null
+              },
+              {
+                "seq": "33019",
+                "rtt": null
+              },
+              {
+                "seq": "33033",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33006",
+                "rtt": null
+              },
+              {
+                "seq": "33020",
+                "rtt": null
+              },
+              {
+                "seq": "33034",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33007",
+                "rtt": null
+              },
+              {
+                "seq": "33021",
+                "rtt": null
+              },
+              {
+                "seq": "33035",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33008",
+                "rtt": null
+              },
+              {
+                "seq": "33022",
+                "rtt": null
+              },
+              {
+                "seq": "33036",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33009",
+                "rtt": null
+              },
+              {
+                "seq": "33023",
+                "rtt": null
+              },
+              {
+                "seq": "33037",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33010",
+                "rtt": null
+              },
+              {
+                "seq": "33024",
+                "rtt": null
+              },
+              {
+                "seq": "33038",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33011",
+                "rtt": null
+              },
+              {
+                "seq": "33025",
+                "rtt": null
+              },
+              {
+                "seq": "33039",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33012",
+                "rtt": null
+              },
+              {
+                "seq": "33026",
+                "rtt": null
+              },
+              {
+                "seq": "33040",
+                "rtt": null
+              }
+            ]
+          },
+          {
+            "stats": {
+              "min": 0,
+              "max": 0,
+              "avg": 0,
+              "total": 0,
+              "rcv": 0,
+              "drop": 2,
+              "stDev": 0,
+              "jMin": 0,
+              "jMax": 0,
+              "jAvg": 0
+            },
+            "asn": [],
+            "timings": [
+              {
+                "seq": "33013",
+                "rtt": null
+              },
+              {
+                "seq": "33027",
+                "rtt": null
+              },
+              {
+                "seq": "33041",
+                "rtt": null
+              }
+            ]
+          }
+        ],
+        "rawOutput": "Host           Loss% Drop Rcv Avg  StDev  Javg \n"
+      }
+    ],
+    "startTime": 10183.896095991135,
+    "time": 13.88,
+    "result": {
+      "resolvedAddress": "undefined",
+      "resolvedHostname": "undefined",
+      "hops": [
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        },
+        {
+          "stats": {
+            "min": 0,
+            "max": 0,
+            "avg": 0,
+            "total": 0,
+            "rcv": 0,
+            "drop": 3,
+            "stDev": 0,
+            "jMin": 0,
+            "jMax": 0,
+            "jAvg": 0
+          },
+          "asn": [],
+          "timings": [
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            },
+            {
+              "rtt": null
+            }
+          ]
+        }
+      ],
+      "rawOutput": "Host           Loss% Drop Rcv Avg  StDev  Javg \n"
+    }
+  },
+  "problemsRaw": {}
+}

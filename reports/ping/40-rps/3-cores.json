@@ -1,0 +1,69 @@
+{
+  "duration": 60,
+  "rps": 40,
+  "time": 75.18,
+  "numberOfRequests": 2400,
+  "successfullResponses": 2400,
+  "averageOneRequestTime": 13.42,
+  "longestOneRequestTime": 16.73,
+  "disconnects": [],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 0,
+    "1": 0,
+    "2": 1660,
+    "3": 118,
+    "4": 605,
+    "5": 16,
+    "6": 1,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "rawOutput": "PING google.com (142.250.186.78) 56(84) bytes of data.\n"
+      },
+      {
+        "rawOutput": "64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=1 ttl=37 time=74.6 ms\n"
+      },
+      {
+        "rawOutput": "64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=2 ttl=37 time=68.4 ms\n"
+      },
+      {
+        "rawOutput": "64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=3 ttl=37 time=89.0 ms\n\n--- google.com ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 401ms\nrtt min/avg/max/mdev = 68.432/77.344/88.970/8.601 ms\n"
+      }
+    ],
+    "startTime": 1696.9401260614395,
+    "time": 0.57,
+    "result": {
+      "resolvedAddress": "142.250.186.78",
+      "resolvedHostname": "fra24s05-in-f14.1e100.net",
+      "timings": [
+        {
+          "ttl": 37,
+          "rtt": 74.6
+        },
+        {
+          "ttl": 37,
+          "rtt": 68.4
+        },
+        {
+          "ttl": 37,
+          "rtt": 89
+        }
+      ],
+      "stats": {
+        "min": 68.432,
+        "avg": 77.344,
+        "max": 88.97,
+        "loss": 0
+      },
+      "rawOutput": "PING google.com (142.250.186.78) 56(84) bytes of data.\n64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=1 ttl=37 time=74.6 ms\n64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=2 ttl=37 time=68.4 ms\n64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=3 ttl=37 time=89.0 ms\n\n--- google.com ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 401ms\nrtt min/avg/max/mdev = 68.432/77.344/88.970/8.601 ms"
+    }
+  },
+  "problemsRaw": {}
+}

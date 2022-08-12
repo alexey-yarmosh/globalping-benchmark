@@ -1,0 +1,44 @@
+{
+  "duration": 60,
+  "rps": 300,
+  "time": 75.65,
+  "numberOfRequests": 18000,
+  "successfullResponses": 18000,
+  "averageOneRequestTime": 19.93,
+  "longestOneRequestTime": 34.12,
+  "disconnects": [],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 17548,
+    "1": 452,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "sampleResponse": {
+    "progress": [],
+    "startTime": 8240.932461977005,
+    "time": 10.04,
+    "result": {
+      "resolvedAddress": "",
+      "headers": {},
+      "rawHeaders": "",
+      "rawBody": "",
+      "statusCode": 0,
+      "timings": {
+        "total": 10012,
+        "download": null
+      },
+      "tls": {},
+      "rawOutput": "Timeout awaiting 'request' for 10000ms - ETIMEDOUT"
+    }
+  },
+  "problemsRaw": {}
+}

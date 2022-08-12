@@ -1,0 +1,69 @@
+{
+  "duration": 60,
+  "rps": 40,
+  "time": 74.43,
+  "numberOfRequests": 2400,
+  "successfullResponses": 2400,
+  "averageOneRequestTime": 13.56,
+  "longestOneRequestTime": 17.64,
+  "disconnects": [],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 0,
+    "1": 16,
+    "2": 1896,
+    "3": 107,
+    "4": 362,
+    "5": 19,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "rawOutput": "PING google.com (142.250.186.78) 56(84) bytes of data.\n"
+      },
+      {
+        "rawOutput": "64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=1 ttl=37 time=84.5 ms\n"
+      },
+      {
+        "rawOutput": "64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=2 ttl=37 time=76.2 ms\n"
+      },
+      {
+        "rawOutput": "64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=3 ttl=37 time=84.4 ms\n\n--- google.com ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 401ms\nrtt min/avg/max/mdev = 76.150/81.681/84.480/3.911 ms\n"
+      }
+    ],
+    "startTime": 1678.8637170791626,
+    "time": 0.61,
+    "result": {
+      "resolvedAddress": "142.250.186.78",
+      "resolvedHostname": "fra24s05-in-f14.1e100.net",
+      "timings": [
+        {
+          "ttl": 37,
+          "rtt": 84.5
+        },
+        {
+          "ttl": 37,
+          "rtt": 76.2
+        },
+        {
+          "ttl": 37,
+          "rtt": 84.4
+        }
+      ],
+      "stats": {
+        "min": 76.15,
+        "avg": 81.681,
+        "max": 84.48,
+        "loss": 0
+      },
+      "rawOutput": "PING google.com (142.250.186.78) 56(84) bytes of data.\n64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=1 ttl=37 time=84.5 ms\n64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=2 ttl=37 time=76.2 ms\n64 bytes from fra24s05-in-f14.1e100.net (142.250.186.78): icmp_seq=3 ttl=37 time=84.4 ms\n\n--- google.com ping statistics ---\n3 packets transmitted, 3 received, 0% packet loss, time 401ms\nrtt min/avg/max/mdev = 76.150/81.681/84.480/3.911 ms"
+    }
+  },
+  "problemsRaw": {}
+}

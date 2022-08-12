@@ -1,0 +1,31 @@
+{
+  "duration": 60,
+  "rps": 350,
+  "time": 40.49,
+  "numberOfRequests": 21000,
+  "successfullResponses": 57,
+  "averageOneRequestTime": 9.94,
+  "longestOneRequestTime": 10.49,
+  "disconnects": [],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 14323,
+    "1": 8,
+    "2": 7,
+    "3": 1,
+    "4": 11,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "sampleResponse": {
+    "progress": [],
+    "startTime": 2215.6273510456085,
+    "time": null
+  },
+  "problemsRaw": {}
+}

@@ -1,0 +1,38 @@
+{
+  "duration": 60,
+  "rps": 50,
+  "time": 64.11,
+  "numberOfRequests": 3000,
+  "successfullResponses": 3000,
+  "averageOneRequestTime": 1.79,
+  "longestOneRequestTime": 5.11,
+  "disconnects": [],
+  "progressProblemsIds": [],
+  "resultProblemsIds": [],
+  "progressItems": {
+    "0": 0,
+    "1": 2226,
+    "2": 10,
+    "3": 550,
+    "4": 149,
+    "5": 50,
+    "6": 12,
+    "7": 3,
+    "8": 0,
+    "9": 0,
+    "10": 0
+  },
+  "sampleResponse": {
+    "progress": [
+      {
+        "rawOutput": "google.com: No address associated with hostname\nCannot handle \"host\" cmdline arg `google.com' on position 1 (argc 13)\n"
+      }
+    ],
+    "startTime": 1683.8463060855865,
+    "time": 0.08,
+    "result": {
+      "rawOutput": "google.com: No address associated with hostname\nCannot handle \"host\" cmdline arg `google.com' on position 1 (argc 13)"
+    }
+  },
+  "problemsRaw": {}
+}
